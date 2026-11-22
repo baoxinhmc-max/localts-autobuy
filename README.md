@@ -6,7 +6,7 @@ Tool Windows tự **săn và mua acc trên localts.store** khi có hàng, lấy 
 
 ## ⬇️ Tải về
 
-Vào mục **[Releases](../../releases/latest)** → tải **`LocalTS-AutoBuy-v….zip`** (nhẹ hơn) hoặc **`LocalTS-AutoBuy.exe`**.
+Vào mục **[Releases](../../releases/latest)** → tải file **`LocalTS-AutoBuy-v….zip`** → giải nén ra **`LocalTS-AutoBuy.exe`**.
 
 Chỉ cần 1 file exe, không phải cài gì thêm.
 
@@ -16,6 +16,7 @@ Chỉ cần 1 file exe, không phải cài gì thêm.
 - **Auto mua theo số lượng** cho từng sản phẩm:
   - *Mua dần cho đủ*: có hàng là mua liền, thiếu thì đợi mua tiếp tới đủ.
   - *Đợi đủ hàng, mua 1 lần*: chỉ mua khi kho đủ số lượng (ăn giảm giá theo số lượng).
+- **Chọn nhiều sản phẩm** một lần: tick nhiều cái, đặt số lượng + giá tối đa từng cái, bật auto mua tất cả bằng 1 nút.
 - Kiểm tra hàng mỗi 1–2 giây, có hàng là đặt đơn ngay; nhiều sản phẩm mua cùng lúc.
 - Tự lấy acc khi shop giao xong, **gửi Discord** (webhook hoặc bot nhắn riêng).
 - Xử lý shop hoàn tiền / hoàn acc lỗi (tự mua bù), hết số dư, bị người khác giành hàng.
@@ -28,6 +29,7 @@ Chỉ cần 1 file exe, không phải cài gì thêm.
 2. **Cài đặt** → dán API key (lấy ở localts.store → Settings) → **Lưu & kiểm tra kết nối**.
 3. (Tuỳ chọn) dán **Discord Webhook URL** → **Lưu & gửi tin thử**.
 4. Tab **Sản phẩm** → bấm **Auto mua khi có hàng** / **Mua ngay** → chọn số lượng → bắt đầu.
+   Muốn săn nhiều sản phẩm: bấm **Chọn nhiều** → tick sản phẩm → **Đặt số lượng & auto mua**.
 5. Nick mua về nằm ở tab **Kho nick**.
 
 ## Lưu ý
